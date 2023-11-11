@@ -64,8 +64,6 @@ function App() {
   }
 
   //deletes from database
-
-  
   const deleteTodo = (id) => {
     fetch(`https://todolist-8d142-default-rtdb.europe-west1.firebasedatabase.app/items/${id}.json`,
     {
